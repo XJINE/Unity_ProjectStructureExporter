@@ -73,7 +73,7 @@ namespace ProjectStructureExporter
             // This will be null in "AssetDatabase.LoadAssetAtPath".
             // var exportFilePath = Path.Combine(Application.dataPath, "FileStructure.txt");
 
-            var exportFilePath = "Assets/FileStructure.txt";
+            var exportFilePath = "Assets/ProjectStructure.txt";
                 exportFilePath = AssetCreationHelper.CorrectAssetNameToAvoidOverwrite(exportFilePath);
 
             File.WriteAllText(exportFilePath, result);
